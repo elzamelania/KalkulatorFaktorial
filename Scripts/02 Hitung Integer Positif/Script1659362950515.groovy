@@ -17,3 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.url)
+
+WebUI.setText(findTestObject('Object Repository/Page_Faktoriall/input_Angka'), '4')
+
+WebUI.click(findTestObject('Page_Faktoriall/btn_Hitung Faktorial'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Faktoriall/txt_hasil'), 'Faktorial dari 4 adalah: 24')
+

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Kalkulator Faktorial_input</name>
+   <name>input_Angka</name>
    <tag></tag>
    <elementGuidId>0d52f70e-2908-4bbc-8c26-c627295b9ae6</elementGuidId>
    <selectorCollection>
@@ -22,10 +22,66 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>8d6dc9d0-b882-4be8-b6d4-d676245d1009</webElementGuid>
+      <webElementGuid>a2fcf83f-59fc-41c3-9cee-a708b33d1484</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>ce43803a-e802-44e9-96ac-d3962f1775be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>562e7a9f-1b8f-4c8f-b448-71b9291fd6df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>849bd42b-5f09-4027-83ee-b09caf799d8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Masukkan Angka</value>
+      <webElementGuid>4ff17edd-24e8-492b-a7aa-9318cf29399b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>a81f2028-657a-4109-8e55-6b71d15f6028</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;input&quot;)</value>
+      <webElementGuid>c22a0b49-057e-416b-ad6c-b0ace3b31271</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>8d6dc9d0-b882-4be8-b6d4-d676245d1009</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -41,7 +97,7 @@
       <webElementGuid>9e0c0028-36af-4eb5-a538-5f1e956841bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -49,7 +105,7 @@
       <webElementGuid>262c590b-66b8-4d0c-b829-8da3c13fbd2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
@@ -57,7 +113,7 @@
       <webElementGuid>78690e52-1e0c-4427-a64f-440a1e81546e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
@@ -78,7 +134,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='input']</value>
-      <webElementGuid>b5bd7dba-c102-4096-9003-885ff319901d</webElementGuid>
+      <webElementGuid>8b05b86b-2d5f-48bc-8212-2dee5108db3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +142,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>6a629136-9a51-4729-b36a-37ebb52567fe</webElementGuid>
+      <webElementGuid>5d0cea5c-d351-43dd-b8c9-71b0d7a55a5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +150,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'input' and @placeholder = 'Masukkan Angka' and @name = 'input']</value>
-      <webElementGuid>1f9e5612-031a-4e74-89e1-02fb136d1f41</webElementGuid>
+      <webElementGuid>697a0e37-65bb-454f-84bc-55ccdc6296a4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

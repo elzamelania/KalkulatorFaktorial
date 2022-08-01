@@ -25,8 +25,8 @@ WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.verifyElementText(findTestObject('Page_Faktoriall/txt_Kalkulator Faktorial'), 'Kalkulator Faktorial')
 
-//WebUI.verifyElementText(findTestObject('Object Repository/Page_Faktoriall/input_Kalkulator Faktorial_input'), '')
-variableHoldingValue = WebUI.getAttribute(findTestObject('Object Repository/Page_Faktoriall/input_Kalkulator Faktorial_input'), 
+//WebUI.verifyElementText(findTestObject('Object Repository/Page_Faktoriall/input_Angka'), '')
+variableHoldingValue = WebUI.getAttribute(findTestObject('Object Repository/Page_Faktoriall/input_Angka'), 
     '')
 
 WebUI.verifyEqual(variableHoldingValue, variableHoldingValue)
