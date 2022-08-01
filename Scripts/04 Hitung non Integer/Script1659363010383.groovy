@@ -55,3 +55,5 @@ WebUI.click(findTestObject('Page_Faktoriall/btn_Hitung Faktorial'))
 
 WebUI.verifyElementText(findTestObject('Page_Faktoriall/txt_hasil'), 'Please enter an integer')
 
+WebUI.closeBrowser()
+
