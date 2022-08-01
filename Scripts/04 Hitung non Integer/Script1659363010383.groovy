@@ -17,3 +17,41 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.url)
+
+WebUI.click(findTestObject('Page_Faktoriall/btn_Hitung Faktorial'))
+
+WebUI.verifyElementText(findTestObject('Page_Faktoriall/txt_hasil'), 'Please enter an integer')
+
+WebUI.setText(findTestObject('Page_Faktoriall/input_Angka'), '  ')
+
+WebUI.click(findTestObject('Page_Faktoriall/btn_Hitung Faktorial'))
+
+WebUI.verifyElementText(findTestObject('Page_Faktoriall/txt_hasil'), 'Please enter an integer')
+
+WebUI.setText(findTestObject('Page_Faktoriall/input_Angka'), 'test')
+
+WebUI.click(findTestObject('Page_Faktoriall/btn_Hitung Faktorial'))
+
+WebUI.verifyElementText(findTestObject('Page_Faktoriall/txt_hasil'), 'Please enter an integer')
+
+WebUI.setText(findTestObject('Page_Faktoriall/input_Angka'), '---')
+
+WebUI.click(findTestObject('Page_Faktoriall/btn_Hitung Faktorial'))
+
+WebUI.verifyElementText(findTestObject('Page_Faktoriall/txt_hasil'), 'Please enter an integer')
+
+WebUI.setText(findTestObject('Page_Faktoriall/input_Angka'), '0.33')
+
+WebUI.click(findTestObject('Page_Faktoriall/btn_Hitung Faktorial'))
+
+WebUI.verifyElementText(findTestObject('Page_Faktoriall/txt_hasil'), 'Please enter an integer')
+
+WebUI.setText(findTestObject('Page_Faktoriall/input_Angka'), '1,8')
+
+WebUI.click(findTestObject('Page_Faktoriall/btn_Hitung Faktorial'))
+
+WebUI.verifyElementText(findTestObject('Page_Faktoriall/txt_hasil'), 'Please enter an integer')
+
