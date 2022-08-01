@@ -17,3 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl(GlobalVariable.url)
+
+WebUI.verifyElementText(findTestObject('Page_Faktoriall/txt_Kalkulator Faktorial'), 'Kalkulator Faktorial')
+
+//WebUI.verifyElementText(findTestObject('Object Repository/Page_Faktoriall/input_Kalkulator Faktorial_input'), '')
+variableHoldingValue = WebUI.getAttribute(findTestObject('Object Repository/Page_Faktoriall/input_Kalkulator Faktorial_input'), 
+    '')
+
+WebUI.verifyEqual(variableHoldingValue, variableHoldingValue)
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Faktoriall/btn_Hitung Faktorial'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Faktoriall/link_Terms Of Service'), 'Terms Of Service')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Faktoriall/link_Privacy Policy'), 'Privacy Policy')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Faktoriall/txt-QaAcademy'), 
+    '© Qa Academy 2022 - 2022')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Faktoriall/txt_Laravel'), 'Laravel v8.72.0 (PHP v8.0.10)')
+
